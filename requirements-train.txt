@@ -1,0 +1,4 @@
+-r requirements.txt
+colossalai==0.4.6
+flash-attn==2.7.2.post1
+tensorboard>=2.17,<3

@@ -1,0 +1,32 @@
+# Local checkpoints and model caches
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.gguf
+.cache/
+hf_cache/
+
+# Generated benchmark inputs and outputs
+results/
+predictions/
+metrics/
+*.json
+*.jsonl
+*.arrow
+*.parquet
+*.tar.gz
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Training outputs
+runs/
+checkpoints/
+tensorboard/
+demo-output/

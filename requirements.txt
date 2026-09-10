@@ -1,0 +1,11 @@
+# Evaluation/inference environment used by the revised scripts.
+datasets>=2.20,<4
+editdistance>=0.8,<1
+loguru>=0.7,<1
+numpy==1.26.4
+torch==2.7.1
+tqdm>=4.66,<5
+transformers==4.51.3
+vllm==0.10.1.1
+zstandard>=0.22,<1
+accelerate>=1.2,<2
